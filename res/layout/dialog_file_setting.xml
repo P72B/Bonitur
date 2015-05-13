@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_newgeofence"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/ownAndroidDarkGreen"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/ic_setting" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/ownGray"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitStart"
+                android:src="@drawable/ic_table_setting" />
+
+            <TextView
+                android:id="@+id/tvDialogSettingFileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/dialog_file_name" />
+
+            <EditText
+                android:id="@+id/edtDialogSettingfileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:inputType="text"
+                android:background="@drawable/imagebuttonempty"
+                android:textColor="@color/ownDarkGrey"
+                android:textColorLink="@color/ownAndroidBlue"
+                android:drawableLeft="@drawable/ic_edit"
+                android:drawableStart="@drawable/ic_edit" />
+
+            <TextView
+                android:id="@+id/tvDialogSettingTableSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/dialog_table_size" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvDialogSettingRowTitle"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    android:text="@string/dialog_table_rows" />
+
+                <NumberPicker
+                    android:id="@+id/numberPickerDialogSettingRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvDialogSettingColTitle"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    android:text="@string/dialog_table_cols" />
+
+                <NumberPicker
+                    android:id="@+id/numberPickerDialogSettingCol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/ownGray"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitStart"
+                android:src="@drawable/ic_voice_setting" />
+
+                <TextView
+                    android:id="@+id/seekBarDialogSettingTitel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/dialog_voice_interval" />
+
+            <EditText
+                android:id="@+id/edtInputInterval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/imagebuttonempty"
+                android:drawableLeft="@drawable/ic_edit"
+                android:drawableStart="@drawable/ic_edit"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textColor="@color/ownDarkGrey"
+                android:textColorLink="@color/ownAndroidBlue" />
+
+            <TextView
+                android:id="@+id/tvDialogSettingDirection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/dialog_speech_recognizer_direction" />
+
+            <ImageButton
+                android:id="@+id/imageButtonDialogSettingDirection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/textsize"
+                android:background="@drawable/imagebutton"
+                android:src="@drawable/ic_arrow_lrtb" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bonitur</string>
+    <string name="activity_listview_nothingfound">You want to start a new bonitur.</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_template">Templates</string>
+    <string name="menu_export">Exports</string>
+    <string name="menu_new">Create new</string>
+    <string name="menu_save_as_template">Save as template</string>
+    <string name="menu_export_to_txt">Export to text</string>
+    <string name="btn_numbers">123</string>
+    <string name="btn_letters">ABC</string>
+    
+    <!-- Context menu file list-->
+    <string name="context_menu_file_list_title">File options</string>
+    <string-array name="context_menu_file_list">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    
+    <string name="alertDialogInputRenameSub">Enter file name:</string>
+    <string name="alertDialogInputDeleteSub">Do you want to delete?</string>
+    <string name="alertDialogInputExportSub">The file will be exported.</string>
+    
+    <!-- Toast msgs -->
+    <string name="toastSpecifyInputFiled">Specify a field inside the purple filled area.</string>
+    <string name="toastEnd">You\'ve done it!</string>
+    
+    <!-- Dialog fragment general -->
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_open">Open</string>
+    
+    <!-- Dialog fragment file setting -->
+    <string name="dialog_file_name">File name:</string>
+    <string name="dialog_voice_interval">Voice input interval [sec]:</string>
+    <string name="dialog_table_size">Table size:</string>
+    <string name="dialog_table_rows">Rows:</string>
+    <string name="dialog_table_cols">Columns:</string>
+    <string name="dialog_speech_recognizer_direction">Direction:</string>
+    
+    <!-- Dialog fragment template name -->
+    <string name="dialog_template_name">Template name:</string>
+    
+    <!-- About activity content -->
+    <string name="aboutTitle">Bonitur</string>
+    <string name="aboutPrivacyTitle">Privacy policy</string>
+    <string name="aboutPrivacy">The app won\'t share any personal information or usage data 
+        to other persons or computer.\nYour files will be saved on local storage e.g. SD card. They aren\'t shared at 
+        any time unless you want it.</string>
+    <string name="aboutSupportTitle">Support</string>
+    <string name="aboutSupport">Do you have some ideas to improve the app? Or found an issue? Maybe you\'re interested 
+        in getting the code then check out the <a href="https://github.com/P72B">Bonitur GIT</a> repository and pull a fork of it.
+        \nFeel free to contact me:</string>
+    <string name="aboutSupportMail">w.riechert@gmx.net</string>
+    <string name="aboutNotesTitle">Additional notes</string>
+    <string name="aboutNotes">The app is developed in collaboration with students of the Albrecht Daniel 
+        Thaer-Institute of Agricultural and Horticultural Sciences of Humbold University Berlin. Special thanks goes to Virginia Marten.</string>
+    <string name="aboutSubTitle">Developed by Willy Riechert</string>
+</resources>

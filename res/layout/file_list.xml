@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ownWhite_0"
+    tools:context="de.p72b.bonitur.FileListFragment" >
+
+    <ImageView
+        android:id="@+id/imageViewFileListBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tomato_plant" />
+
+        <ListView
+            android:id="@+id/listViewFiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ListView>
+
+</RelativeLayout>

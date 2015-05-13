@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_newgeofence"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/ownAndroidDarkGreen"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_new" />
+
+    <ScrollView
+        android:id="@+id/scrollViewTemplateList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvDialogFileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/dialog_template_name" />
+
+            <EditText
+                android:id="@+id/edtDialogFileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/imagebuttonempty"
+                android:drawableLeft="@drawable/ic_edit"
+                android:drawableStart="@drawable/ic_edit"
+                android:inputType="text"
+                android:textColor="@color/ownDarkGrey"
+                android:textColorLink="@color/ownAndroidBlue" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="ownWhite_0">#00FFFFFF</color>
+    <color name="ownWhite_5">#0DFFFFFF</color>
+    <color name="ownWhite_10">#1AFFFFFF</color>
+    <color name="ownWhite_15">#26FFFFFF</color>
+    <color name="ownWhite_20">#33FFFFFF</color>
+    <color name="ownWhite_25">#40FFFFFF</color>
+    <color name="ownWhite_30">#4DFFFFFF</color>
+    <color name="ownWhite_35">#59FFFFFF</color>
+    <color name="ownWhite_40">#66FFFFFF</color>
+    <color name="ownWhite_45">#73FFFFFF</color>
+    <color name="ownWhite_50">#80FFFFFF</color>
+    <color name="ownWhite_55">#8CFFFFFF</color>
+    <color name="ownWhite_60">#99FFFFFF</color>
+    <color name="ownWhite_65">#A6FFFFFF</color>
+    <color name="ownWhite_70">#B3FFFFFF</color>
+    <color name="ownWhite_75">#BFFFFFFF</color>
+    <color name="ownWhite_80">#CCFFFFFF</color>
+    <color name="ownWhite_85">#D9FFFFFF</color>
+    <color name="ownWhite_90">#E6FFFFFF</color>
+    <color name="ownWhite_95">#F2FFFFFF</color>
+    <color name="ownWhite_100">#FFFFFFFF</color>
+
+    <color name="ownBlack">#000000</color>
+    <color name="ownGray">#ADADAD</color>
+    <color name="ownDarkGrey">#222222</color>
+    <color name="ownLightGray">#cccccc</color>
+    <color name="ownTransparent">#00000000</color>
+    
+    <color name="ownAndroidBlue">#33B5E5</color>
+    <color name="ownAndroidDarkBlue">#287AA9</color>
+    
+    <color name="ownAndroidGreen">#99CC00</color>
+    <color name="ownAndroidDarkGreen">#669900</color>
+    
+    <color name="ownAndroidPurple">#AA66CC</color>
+    <color name="ownAndroidDarkPurple">#9933CC</color>
+    
+    <color name="ownAndroidOrange">#AA66CC</color>
+    <color name="ownAndroidDarkOrange">#FF8800</color>
+    
+    <color name="ownAndroidRed">#FF4444</color>
+    <color name="ownAndroidDarkRed">#CC0000</color>
+
+</resources>
